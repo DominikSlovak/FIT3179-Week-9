@@ -14,12 +14,12 @@
       },
       {
         "data": {
-          "url": "data/fra-forestAreaChange.csv"
+          "url": "https://github.com/DominikSlovak/FIT3179-Week-9/raw/main/Vega_Lite%20Items/data/fra-forestAreaChange.csv"
         },
         "mark": {"type": "circle", "tooltip": {"content": "data"}},
         "encoding": {
-          "longitude": {"field": "longitude", "type": "quantitative"},
-          "latitude": {"field": "latitude", "type": "quantitative"},
+          "longitude": {"field": "Country", "type": "quantitative"},
+          "latitude": {"field": "Forest Area Net Change", "type": "quantitative"},
           "size": {
             "field": "1990-2000",
             "type": "quantitative",
