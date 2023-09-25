@@ -13,7 +13,7 @@
   "lookup": "properties.NAME",
   "from": {
   "data": {
-  "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/covid_10_10_2020.csv"
+  "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/Vega_Lite%20Items/data/fra-forestAreaChange.csv?token=GHSAT0AAAAAACH7Z4VHWJSV3JM7BWFAT6WCZIRIKCA"
   },
   "key": "Country",
   "fields": ["Change"]
@@ -29,8 +29,7 @@
   "scale": {"type": "linear"}
   },
   "tooltip": [
-  {"field": "properties.NAME", "type": "nominal", "title":
-  "Country"},
+  {"field": "properties.NAME", "type": "nominal", "title": "Country"},
   {"field": "Change", "type": "quantitative"}
   ]
   }
