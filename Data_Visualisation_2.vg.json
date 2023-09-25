@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/Vega_Lite%20Items/data/fra-forestAreaChange.csv"
+          "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/fra-forestAreaChange.csv"
         },
         "key": "Country",
         "fields": ["Change"]
