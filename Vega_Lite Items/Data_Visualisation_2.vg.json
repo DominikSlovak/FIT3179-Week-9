@@ -1,37 +1,35 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "COVID-19 Active Cases (10 Oct 2020)",
+  "title": "Forest Area Net Change (1990-2000)",
   "width": 800,
   "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
-  "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
-  "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
-  {
-  "lookup": "properties.NAME",
-  "from": {
-  "data": {
-  "url": "https://github.com/DominikSlovak/FIT3179-Week-9/blob/main/Vega_Lite%20Items/data/fra-forestAreaChange.csv"
-  },
-  "key": "Country",
-  "fields": ["Active"]
-  }
-  },
-  {"calculate": "datum.Active + 0.1", "as": "Active Cases"}
+    {
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+          "url": "https://github.com/DominikSlovak/FIT3179-Week-9/raw/main/Vega_Lite%20Items/data/fra-forestAreaChange.csv"
+        },
+        "key": "Country",
+        "fields": ["Forest Area Net Change"]
+      }
+    }
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
-  "color": {
-  "field": "Active Cases",
-  "type": "quantitative",
-  "scale": {"type": "log"}
-  },
-  "tooltip": [
-  {"field": "properties.NAME", "type": "nominal", "title":
-  "Country"},
-  {"field": "Active", "type": "quantitative"}
-  ]
+    "color": {
+      "field": "Forest Area Net Change",
+      "type": "quantitative",
+      "scale": {"type": "log"}
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {"field": "Forest Area Net Change", "type": "quantitative", "title": "Forest Area Net Change (1990-2000)"}
+    ]
   }
-  }
+}
