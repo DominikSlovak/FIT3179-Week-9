@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Natural Disasters Per 1000 Hectares 1990-2020",
   "data": {
     "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/Forest%20Disturbances.csv"
   },
@@ -13,11 +12,11 @@
           "mark": {"type": "area"},
           "encoding": {
             "x": {"field": "Year", "type": "temporal", "scale": {"domain": {"param": "brush"}}, "title": "Year"},
-            "y": {"field": "Area", "type": "quantitative", "title": "Area"},
+            "y": {"field": "Area", "type": "quantitative", "title": "Natural Disasters per 1000 Hectares"},
             "color": {"field": "Event", "type": "nominal", "title": "Event"},
             "tooltip": [
               {"field": "Year", "type": "temporal", "title": "Year", "timeUnit": "year"},
-              {"field": "Area", "type": "quantitative", "title": "Area"},
+              {"field": "Area", "type": "quantitative"},
               {"field": "Event", "type": "nominal", "title": "Event"}
             ]
           }
