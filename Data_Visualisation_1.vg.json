@@ -5,7 +5,7 @@
   },
   "vconcat": [
     {
-      "width": 600,
+      "width": 800,
       "height": 240,
       "layer": [
         {
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "width": 600,
+      "width": 800,
       "height": 60,
       "mark": {"type": "area", "strokeWidth": 2},
       "params": [
