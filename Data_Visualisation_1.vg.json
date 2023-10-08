@@ -7,24 +7,41 @@
     {
       "width": "container",
       "height": 240,
-      "mark": "area",
-      "encoding": {
-        "x": {"field": "Year", "type": "temporal", "scale": {"domain": {"param": "brush"}}},
-        "y": {"field": "Area", "type": "quantitative"},
-        "color": {"field": "Event", "type": "nominal"}
-      }
+      "layer": [
+        {
+          "mark": {"type": "area"},
+          "encoding": {
+            "x": {"field": "Year", "type": "temporal", "scale": {"domain": {"param": "brush"}}, "title": "Year"},
+            "y": {"field": "Area", "type": "quantitative", "title": "Area"},
+            "color": {"field": "Event", "type": "nominal", "title": "Event"},
+            "tooltip": [
+              {"field": "Year", "type": "temporal", "title": "Year", "timeUnit": "year"},
+              {"field": "Area", "type": "quantitative", "title": "Area"},
+              {"field": "Event", "type": "nominal", "title": "Event"}
+            ]
+          }
+        },
+        {
+          "mark": {"type": "rule", "color": "red", "strokeWidth": 2},
+          "transform": [
+            {"aggregate": [{"op": "sum", "field": "Area", "as": "TotalArea"}], "groupby": ["Year"]},
+            {"aggregate": [{"op": "average", "field": "TotalArea", "as": "AvgTotalArea"}]}
+          ],
+          "encoding": {"y": {"field": "AvgTotalArea", "type": "quantitative"}}
+        }
+      ]
     },
     {
       "width": "container",
       "height": 60,
-      "mark": "area",
+      "mark": {"type": "area", "strokeWidth": 2},
       "params": [
         {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
       ],
       "encoding": {
-        "x": {"field": "Year", "type": "temporal", "axis": {"tickCount": 17}},
-        "y": {"field": "Area", "type": "quantitative"},
-        "color": {"field": "Event", "type": "nominal"}
+        "x": {"field": "Year", "type": "temporal", "axis": {"tickCount": 17}, "title": ""},
+        "y": {"field": "Area", "type": "quantitative", "title": ""},
+        "color": {"field": "Event", "type": "nominal", "title": "Event"}
       }
     }
   ]
