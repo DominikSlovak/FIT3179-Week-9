@@ -1,0 +1,91 @@
+Event,Year,Area
+Insects,2000,21769.77
+Insects,2001,26258.02
+Insects,2002,30072.99
+Insects,2003,31181.17
+Insects,2004,24964.81
+Insects,2005,30535.78
+Insects,2006,32623.18
+Insects,2007,32690.49
+Insects,2008,27156.7
+Insects,2009,29540.1
+Insects,2010,27776.69
+Insects,2011,23964.15
+Insects,2012,24483.37
+Insects,2013,35803.96
+Insects,2014,34577
+Insects,2015,30214.71
+Insects,2016,28620.16
+Insects,2017,15453.98
+Diseases,2000,2697.14
+Diseases,2001,761.28
+Diseases,2002,2205.95
+Diseases,2003,2803.62
+Diseases,2004,3190.48
+Diseases,2005,4833.68
+Diseases,2006,4282.88
+Diseases,2007,4337.41
+Diseases,2008,5481.83
+Diseases,2009,5124.99
+Diseases,2010,6922.95
+Diseases,2011,7031.67
+Diseases,2012,6749.4
+Diseases,2013,6969.47
+Diseases,2014,6489.53
+Diseases,2015,6602.83
+Diseases,2016,5142.42
+Diseases,2017,4969.53
+Severe Weather,2000,5039.61
+Severe Weather,2001,1996.38
+Severe Weather,2002,4783.89
+Severe Weather,2003,4421.55
+Severe Weather,2004,4640.8
+Severe Weather,2005,6952.28
+Severe Weather,2006,9392.03
+Severe Weather,2007,6814.22
+Severe Weather,2008,7677.55
+Severe Weather,2009,8493.92
+Severe Weather,2010,8463.57
+Severe Weather,2011,7814.14
+Severe Weather,2012,6350.07
+Severe Weather,2013,5389.18
+Severe Weather,2014,3917.27
+Severe Weather,2015,3827.61
+Severe Weather,2016,2016.69
+Severe Weather,2017,1640.64
+Fire,2000,35239.96
+Fire,2001,43080.24
+Fire,2002,70602.89
+Fire,2003,84075.09
+Fire,2004,77982.99
+Fire,2005,82359.24
+Fire,2006,80489.35
+Fire,2007,97996.72
+Fire,2008,74834.79
+Fire,2009,65447.61
+Fire,2010,94291.93
+Fire,2011,88290.11
+Fire,2012,100013.6
+Fire,2013,72613.69
+Fire,2014,86324.66
+Fire,2015,98042.89
+Fire,2016,67771.79
+Fire,2017,50062.95
+Other,2000,3991.89
+Other,2001,3618.58
+Other,2002,6606.15
+Other,2003,6040.19
+Other,2004,6698.98
+Other,2005,7709.69
+Other,2006,9823.85
+Other,2007,9039.74
+Other,2008,8729.53
+Other,2009,11131.79
+Other,2010,11898.19
+Other,2011,12422.49
+Other,2012,11273.27
+Other,2013,8715.05
+Other,2014,6165.64
+Other,2015,5172.42
+Other,2016,3107.7
+Other,2017,2917.34
