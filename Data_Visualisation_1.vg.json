@@ -1,11 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Natural Disasters Per 1000 Hectares 1990-2020",
   "data": {
     "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/Forest%20Disturbances.csv"
   },
   "vconcat": [
     {
-      "title": "Natural Disasters Per 1000 Hectares 1990-2020",
       "width": 800,
       "height": 240,
       "layer": [
