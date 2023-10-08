@@ -1,8 +1,11 @@
 /* Add this CSS to your stylesheet */
-#choropleth_map {
-    margin: 100px auto; /* Center the visualization horizontally and add some top margin */
+.visualization-container {
+    display: flex;
+    flex-direction: column; /* Display the visualizations in a column layout */
+    align-items: center; /* Center the visualizations horizontally */
+    margin: 20px auto; /* Add some top and bottom margin */
   }
-
-#stacked_area_graph {
-    margin: 100px auto; /* Center the visualization horizontally and add some top margin */
+  
+#choropleth_map {
+    margin-top: 20px; /* Add some space between the two visualizations */
   }
