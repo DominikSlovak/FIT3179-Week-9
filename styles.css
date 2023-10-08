@@ -1,8 +1,6 @@
-/* Add this CSS to your stylesheet */
 #choropleth_map {
     margin: 20px auto; /* Center the visualization horizontally and add some top margin */
   }
-
 #stacked_area_graph {
     margin: 20px auto; /* Center the visualization horizontally and add some top margin */
   }
