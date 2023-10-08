@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/Forest%20Disturbances.csv"
+  },
+  "vconcat": [
+    {
+      "width": "container",
+      "height": 240,
+      "mark": "area",
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "scale": {"domain": {"param": "brush"}}},
+        "y": {"field": "Area", "type": "quantitative"},
+        "color": {"field": "Event", "type": "nominal"}
+      }
+    },
+    {
+      "width": "container",
+      "height": 60,
+      "mark": "area",
+      "params": [
+        {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
+      ],
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "axis": {"tickCount": 17}},
+        "y": {"field": "Area", "type": "quantitative"},
+        "color": {"field": "Event", "type": "nominal"}
+      }
+    }
+  ]
+}
