@@ -23,6 +23,11 @@
         "range": ["#e7ba52", "#c7c7c7", "#aec7e8", "#1f77b4", "#9467bd", "#ff7f0e", "#2ca02c", "#98df8a"]
       },
       "title": "Land Type"
-    }
+    },
+    "tooltip": [
+      {"field": "Year", "type": "ordinal", "title": "Year"},
+      {"field": "Area", "type": "quantitative", "title": "Area"},
+      {"field": "Entity", "type": "nominal", "title": "Land Type"}
+    ]
   }
 }
