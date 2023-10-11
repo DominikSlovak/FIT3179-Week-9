@@ -1,6 +1,41 @@
-#choropleth_map {
-    margin: 20px auto; /* Center the visualization horizontally and add some top margin */
-  }
-#stacked_area_graph {
-    margin: 20px auto; /* Center the visualization horizontally and add some top margin */
-  }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightgreen;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.chart {
+  width: 100%;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
