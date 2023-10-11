@@ -1,13 +1,16 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "background": "lightgreen"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/forest_disturbances.csv"
   },
   "vconcat": [
     {
-      "width": 800,
+      "width": 380,
       "height": 240,
-      "title": "Natural Disasters per 1000 Hectares",
+      "title": "Natural Disasters Per 1000 Hectares 2000-2017",
       "layer": [
         {
           "mark": {"type": "area"},
@@ -33,8 +36,8 @@
       ]
     },
     {
-      "width": 800,
-      "height": 60,
+      "width": 380,
+      "height": 50,
       "mark": {"type": "area", "strokeWidth": 2},
       "params": [
         {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}

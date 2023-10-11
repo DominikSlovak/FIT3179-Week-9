@@ -4,7 +4,37 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/styles.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding-top: 20px;     /* Padding for the top of the body */
+        padding-right: 50px;   /* Padding for the right of the body */
+        padding-bottom: 200px;  /* Padding for the bottom of the body */
+        padding-left: 50px;    /* Padding for the left of the body */
+        background-color: rgb(127, 210, 127);
+        }
+    h1 {
+            font-family: Helvetica, sans-serif;
+            /* Other CSS styles for the heading, e.g., color, size, etc. */
+        }
+    .left-column {
+            width: 50%; /* Adjust the width as needed */
+            float: left;
+        }
+    .right-column {
+            width: 50%; /* Adjust the width as needed */
+            float: left;
+        }
+    .single-column {
+            text-align: center;
+        }
+        #text-div p {
+    font-size: 16px;
+    color: #ffffff; /* Text color */
+    /* Other CSS styles for the text */
+        }
+</style>
 <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
@@ -12,15 +42,41 @@
 <title>Repercussions of Deforestation</title>
 </head>
 <body>
-<h1>Net Gain/Loss of Forests</h1>
-<div id="choropleth_map">
-</div>
-<h1>Forest Disasters</h1>
-<div id="stacked_area_graph">
-</div>
-<p style="color: red; font-size: 14px;">*red line is the average</p>
-<div id="donut_pie_chart">
-</div>
+    <div class="container">
+        <div class="single-column">
+            <!-- Content for a single centered column -->
+            <h1>Repercussions of Deforestation</h1>
+            <div id="text-div">
+                <p>Forests are some of the richest areas for biodiversity on the globe. They provide a variety of habitats for plants, animals and micro-organisms. On average, a full grown tree will absorb more than 48 pounds of carbon dioxide from the atmosphere and release oxygen in exchange, and also plays a part in regulating global warming.</p>
+            </div>
+            <div id="choropleth_map"></div>
+            <div id="text-div">
+                <p>Input text here</p>
+            </div>
+        </div>
+        <div class="left-column">
+            <!-- Content for the left column -->
+            <h2>Forest Disasters</h2>
+            <div id="stacked_area_graph"></div>
+            <div id="text-div">
+                <p>*The red line indicates the average.</p>
+                <p>Not only do forests deal with deforestation, wildfires make up a staggering 62% of natural forest disasters.</p>
+            </div>
+        </div>
+        <div class="right-column">
+            <!-- Content for the right column -->
+            <h2>Greenhouse Emissions</h2>
+            <div id="donut_pie_chart"></div>
+            <div id="text-div">
+                <p>AFOLU takes second place for greenhouse gas emissions. This stands for Agriculture, Forestry, and Other Land Use.“Land use” describes the human purposes for which an area of land is managed, such as for agricultural, industrial, recreational, or residential activities. This includes forest land, cropland, grassland, wetlands, settlements, and other lands. </p>
+            </div>
+            <div id="heat_map"></div>
+            <div id="text-div">
+                <p>Input text here</p>
+            </div>
+        </div>
+        <div style="clear: both;"></div> <!-- Clear the floats to prevent layout issues -->
+    </div>
 <div id="stacked_bar_chart">
 </div>
 </body>

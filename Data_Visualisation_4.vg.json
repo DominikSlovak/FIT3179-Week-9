@@ -1,5 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Global Land Use Since 10,000 BC",
+  "config": {
+    "background": "lightgreen"
+  },
+  "width": 380,
+  "height": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/global-land-use-since-10000bc.csv"
   },

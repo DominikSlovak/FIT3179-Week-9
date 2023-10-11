@@ -1,5 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Drivers of Tree Cover Loss",
+    "config": {
+      "background": "lightgreen"
+    },
+    "width": 200,
+    "height": 200,
     "data": {
       "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/driver-of-tree-cover-loss.csv"
     },
