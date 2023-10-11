@@ -1,19 +1,35 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A simple donut chart with embedded data.",
+  "description": "Donut Pie Chart of Greenhouse Gas Emissions by Economic Sectors",
   "data": {
-    "values": [
-      {"category": 1, "value": 4},
-      {"category": 2, "value": 6},
-      {"category": 3, "value": 10},
-      {"category": 4, "value": 3},
-      {"category": 5, "value": 7},
-      {"category": 6, "value": 8}
-    ]
+    "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/greenhouse-gas-emissions-by-economic-sectors.csv"
   },
-  "mark": {"type": "arc", "innerRadius": 50},
-  "encoding": {
-    "theta": {"field": "value", "type": "quantitative"},
-    "color": {"field": "category", "type": "nominal"}
-  }
+  "transform": [
+    {"calculate": "datum.Percent", "as": "value"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "arc", "innerRadius": 50},
+      "encoding": {
+        "theta": {"field": "value", "type": "quantitative"},
+        "color": {"field": "Sector", "type": "nominal", "scale": {"scheme": "blues"}},
+        "tooltip": [
+          {"field": "Sector", "type": "nominal"},
+          {"field": "value", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "arc", "innerRadius": 50, "outerRadius": 110},
+      "transform": [{"filter": {"field": "Sector", "equal": "AFOLU"}}],
+      "encoding": {
+        "theta": {"field": "value", "type": "quantitative"},
+        "color": {"value": "red"},
+        "tooltip": [
+          {"field": "Sector", "type": "nominal"},
+          {"field": "value", "type": "quantitative"}
+        ]
+      }
+    }
+  ]
 }
