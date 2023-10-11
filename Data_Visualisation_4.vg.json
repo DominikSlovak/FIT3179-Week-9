@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/global-land-use-since-10000bc.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "Area",
+      "type": "quantitative",
+      "title": "Area"
+    },
+    "color": {
+      "field": "Entity",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Cropland", "Pasture", "Permanent ice", "Semi-natural land", "Urban", "Villages", "Wild barren land", "Wild woodlands"],
+        "range": ["#e7ba52", "#c7c7c7", "#aec7e8", "#1f77b4", "#9467bd", "#ff7f0e", "#2ca02c", "#98df8a"]
+      },
+      "title": "Land Type"
+    }
+  }
+}
