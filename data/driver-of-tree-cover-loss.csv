@@ -1,0 +1,36 @@
+Region,Driver,Percent
+North America,Deforestation,1
+North America,Shifting Agriculture,1
+North America,Forestry,56
+North America,Wildfire,40
+North America,Urbanization,2
+Latin America,Deforestation,56
+Latin America,Shifting Agriculture,31
+Latin America,Forestry,13
+Latin America,Wildfire,1
+Latin America,Urbanization,1
+Europe,Deforestation,0
+Europe,Shifting Agriculture,1
+Europe,Forestry,99
+Europe,Wildfire,1
+Europe,Urbanization,0
+Africa,Deforestation,4
+Africa,Shifting Agriculture,92
+Africa,Forestry,4
+Africa,Wildfire,1
+Africa,Urbanization,1
+Russia/China/South Asia,Deforestation,1
+Russia/China/South Asia,Shifting Agriculture,1
+Russia/China/South Asia,Forestry,41
+Russia/China/South Asia,Wildfire,58
+Russia/China/South Asia,Urbanization,1
+Southeast Asia,Deforestation,78
+Southeast Asia,Shifting Agriculture,9
+Southeast Asia,Forestry,13
+Southeast Asia,Wildfire,1
+Southeast Asia,Urbanization,1
+Australia/Oceania,Deforestation,7
+Australia/Oceania,Shifting Agriculture,10
+Australia/Oceania,Forestry,29
+Australia/Oceania,Wildfire,53
+Australia/Oceania,Urbanization,1
