@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/Forest%20Disturbances.csv"
+    "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/forest_disturbances.csv"
   },
   "vconcat": [
     {
