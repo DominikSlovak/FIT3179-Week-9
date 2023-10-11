@@ -1,0 +1,17 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/driver-of-tree-cover-loss.csv"
+    },
+    "mark": "rect",
+    "encoding": {
+      "x": {"field": "Driver", "type": "nominal", "title": "Driver"},
+      "y": {"field": "Region", "type": "nominal", "title": "Region"},
+      "color": {"field": "Percent", "type": "quantitative", "title": "Percent"},
+      "tooltip": [
+        {"field": "Driver", "type": "nominal"},
+        {"field": "Region", "type": "nominal"},
+        {"field": "Percent", "type": "quantitative"}
+      ]
+    }
+  }  
