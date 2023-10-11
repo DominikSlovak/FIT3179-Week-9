@@ -1,0 +1,89 @@
+Entity,Year,Area
+Cropland,-10000,0
+Cropland,-5000,9803.74633
+Cropland,0,1741559.199
+Cropland,1000,1798139.279
+Cropland,1700,3322170.559
+Cropland,1800,5073915.282
+Cropland,1900,11516021.29
+Cropland,1950,17919560.15
+Cropland,2000,19065343.19
+Cropland,2010,19140513.42
+Cropland,2015,19379053.01
+Pasture,-10000,0
+Pasture,-5000,102.649299
+Pasture,0,1639259.295
+Pasture,1000,5414287.511
+Pasture,1700,9054785.966
+Pasture,1800,16560825.98
+Pasture,1900,30587420.24
+Pasture,1950,36608066.52
+Pasture,2000,36224142.44
+Pasture,2010,35468580.36
+Pasture,2015,34900570.94
+Permanent ice,-10000,2777111.152
+Permanent ice,-5000,2742036.428
+Permanent ice,0,2704668.543
+Permanent ice,1000,2703789.238
+Permanent ice,1700,2649715.941
+Permanent ice,1800,2629592.281
+Permanent ice,1900,2616117.47
+Permanent ice,1950,2603095.774
+Permanent ice,2000,2563447.852
+Permanent ice,2010,2559190.976
+Permanent ice,2015,2558174.438
+Semi-natural land,-10000,78894394.58
+Semi-natural land,-5000,84459149.89
+Semi-natural land,0,84629744.86
+Semi-natural land,1000,82350071.9
+Semi-natural land,1700,77347901.69
+Semi-natural land,1800,68232215.77
+Semi-natural land,1900,50489771.41
+Semi-natural land,1950,37517883.07
+Semi-natural land,2000,32002717.3
+Semi-natural land,2010,31924002.84
+Semi-natural land,2015,31963460.83
+Urban,-10000,0
+Urban,-5000,44.117
+Urban,0,31626.34486
+Urban,1000,131672.0146
+Urban,1700,405904.4614
+Urban,1800,344947.1745
+Urban,1900,704643.2937
+Urban,1950,1101196.674
+Urban,2000,1944387.438
+Urban,2010,2144993.97
+Urban,2015,2237073.528
+Villages,-10000,0
+Villages,-5000,177.5596
+Villages,0,31944.69626
+Villages,1000,126254.3953
+Villages,1700,407561.8643
+Villages,1800,1757609.832
+Villages,1900,3145705.308
+Villages,1950,4395845.544
+Villages,2000,8573609.398
+Villages,2010,9079915.473
+Villages,2015,9365333.442
+Wild barren land,-10000,29697255.83
+Wild barren land,-5000,26072751.08
+Wild barren land,0,24134239.42
+Wild barren land,1000,23322827.17
+Wild barren land,1700,22690585.96
+Wild barren land,1800,21348329.7
+Wild barren land,1900,17067084.76
+Wild barren land,1950,16127209.37
+Wild barren land,2000,15966603.13
+Wild barren land,2010,16023664.64
+Wild barren land,2015,16001211.19
+Wild woodlands,-10000,20435277.54
+Wild woodlands,-5000,18519973.63
+Wild woodlands,0,16890996.75
+Wild woodlands,1000,15956997.59
+Wild woodlands,1700,15925412.65
+Wild woodlands,1800,15856603.07
+Wild woodlands,1900,15677275.33
+Wild woodlands,1950,15531182
+Wild woodlands,2000,15463788.35
+Wild woodlands,2010,15463177.43
+Wild woodlands,2015,15399161.72
