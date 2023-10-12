@@ -8,10 +8,7 @@
     body {
         font-family: Arial, sans-serif;
         margin: 0;
-        padding-top: 20px;     /* Padding for the top of the body */
-        padding-right: 50px;   /* Padding for the right of the body */
-        padding-bottom: 200px;  /* Padding for the bottom of the body */
-        padding-left: 50px;    /* Padding for the left of the body */
+        padding: 40px;
         background-color: rgb(127, 210, 127);
         }
     h1 {
@@ -33,6 +30,9 @@
             font-size: 16px;
             color: #ffffff;
             width: 550px;
+        }
+    .scatterplot {
+        background-color: lightgreen;
         }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
@@ -66,6 +66,10 @@
             <div id="text-div">
                 <p>Input text here</p>
             </div>
+            <div id="stacked_bar_chart2"></div>
+            <div id="text-div">
+                <p>Input text here</p>
+            </div>
         </div>
         <div class="right-column">
             <!-- Content for the right column -->
@@ -79,7 +83,9 @@
                 <p>Input text here</p>
             </div>
             <div id="scatterplot"></div>
-            <div id="stacked_bar_chart2"></div>
+            <div id="text-div">
+                <p>Input text here</p>
+            </div>
         </div>
         <div style="clear: both;"></div> <!-- Clear the floats to prevent layout issues -->
     </div>
