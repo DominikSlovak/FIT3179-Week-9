@@ -1,5 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {
+        "background": "lightgreen"
+      },
     "data": {
       "values": [
         {"Category": "National Policies Supporting SFM", "Decision": "Yes", "Value": 164},
@@ -16,7 +19,7 @@
     "encoding": {
       "y": {"field": "Category", "type": "nominal"},
       "x": {"field": "Value", "type": "quantitative", "axis": {"title": "Count"}},
-      "color": {"field": "Decision", "type": "nominal", "scale": {"range": ["grey", "lightgreen"]},
+      "color": {"field": "Decision", "type": "nominal", "scale": {"range": ["grey", "green"]},
       "legend": {"title": "Decision"}}
     }
   }

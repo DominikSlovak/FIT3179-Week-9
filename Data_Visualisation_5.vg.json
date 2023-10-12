@@ -4,7 +4,7 @@
     "config": {
       "background": "lightgreen"
     },
-    "width": 200,
+    "width": 380,
     "height": 200,
     "data": {
       "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/driver-of-tree-cover-loss.csv"

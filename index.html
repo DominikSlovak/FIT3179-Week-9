@@ -30,9 +30,9 @@
             text-align: center;
         }
         #text-div p {
-    font-size: 16px;
-    color: #ffffff; /* Text color */
-    /* Other CSS styles for the text */
+            font-size: 16px;
+            color: #ffffff;
+            width: 550px;
         }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
@@ -45,10 +45,10 @@
     <div class="container">
         <div class="single-column">
             <!-- Content for a single centered column -->
-            <h1>Repercussions of Deforestation</h1>
-            <div id="text-div">
-                <p>Forests are some of the richest areas for biodiversity on the globe. They provide a variety of habitats for plants, animals and micro-organisms. On average, a full grown tree will absorb more than 48 pounds of carbon dioxide from the atmosphere and release oxygen in exchange, and also plays a part in regulating global warming.</p>
-            </div>
+            <h1>Take Care of Our Forests</h1>
+            <p style="color: white;">
+                Forests are some of the richest areas for biodiversity on the globe. They provide a variety of habitats for plants, animals and micro-organisms. On average, a full-grown tree will absorb more than 48 pounds of carbon dioxide from the atmosphere and release oxygen in exchange, and also plays a part in regulating global warming.
+              </p>
             <div id="choropleth_map"></div>
             <div id="text-div">
                 <p>Input text here</p>
@@ -61,6 +61,10 @@
             <div id="text-div">
                 <p>*The red line indicates the average.</p>
                 <p>Not only do forests deal with deforestation, wildfires make up a staggering 62% of natural forest disasters.</p>
+            </div>
+            <div id="stacked_bar_chart"></div>
+            <div id="text-div">
+                <p>Input text here</p>
             </div>
         </div>
         <div class="right-column">
@@ -79,7 +83,5 @@
         </div>
         <div style="clear: both;"></div> <!-- Clear the floats to prevent layout issues -->
     </div>
-<div id="stacked_bar_chart">
-</div>
 </body>
 </html>
