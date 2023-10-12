@@ -13,7 +13,7 @@
       "size": 60
     },
     "config": {
-      "range": {"category": {"scheme": "category10"}},
+      "range": {"category": {"scheme": "set1"}},
       "axis": {"labelFontSize": 12, "titleFontSize": 14}
     },
     "encoding": {
@@ -30,7 +30,7 @@
       "color": {
         "field": "Category",
         "type": "nominal",
-        "scale": {"scheme": "category10"},
+        "scale": {"scheme": "set1"},
         "title": "Category"
       },
       "tooltip": [
@@ -46,4 +46,4 @@
         "bind": "scales"
       }
     }
-  }
+  }  
