@@ -1,5 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Types of Forests with Country vs Forest Area",
     "description": "Scatterplot of Category Area vs. Land Area color-coded by Category",
     "width": 360,
     "height": 300,

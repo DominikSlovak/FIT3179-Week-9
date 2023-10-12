@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Policies, Legislations and Regulations",
+    "title": "SFM Policies, Legislations and Regulations",
     "config": {
       "background": "lightgreen"
     },
