@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Types of Forests",
-    "description": "Scatterplot of Forest Area vs. Land Area color-coded by Forest",
+    "title": "Types",
+    "description": "Scatterplot of Category Area vs. Land Area color-coded by Category",
     "width": 360,
     "height": 300,
     "data": {
@@ -19,9 +19,9 @@
     },
     "encoding": {
       "x": {
-        "field": "Forest Area ( km² )",
+        "field": "Category Area ( km² )",
         "type": "quantitative",
-        "title": "Forest Area (km²)"
+        "title": "Category Area (km²)"
       },
       "y": {
         "field": "Land Area ( km² )",
@@ -29,16 +29,16 @@
         "title": "Land Area (km²)"
       },
       "color": {
-        "field": "Forest",
+        "field": "Category",
         "type": "nominal",
         "scale": {"scheme": "category10"},
-        "title": "Forest"
+        "title": "Category"
       },
       "tooltip": [
         {"field": "Country", "type": "ordinal", "title": "Country"},
-        {"field": "Forest Area ( km² )", "type": "quantitative", "title": "Forest Area (km²)"},
+        {"field": "Category Area ( km² )", "type": "quantitative", "title": "Category Area (km²)"},
         {"field": "Land Area ( km² )", "type": "quantitative", "title": "Land Area (km²)"},
-        {"field": "Forest", "type": "nominal", "title": "Forest"}
+        {"field": "Category", "type": "nominal", "title": "Category"}
       ]
     },
     "selection": {
