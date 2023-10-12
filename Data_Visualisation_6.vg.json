@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Scatterplot of Category Area vs. Land Area color-coded by Category",
+    "width": 400,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/fra-specificForestCategories.csv",
+      "format": {"type": "csv"}
+    },
+    "mark": "point",
+    "config": {
+      "range": {"category": {"scheme": "category10"}},
+      "axis": {"labelFontSize": 12, "titleFontSize": 14}
+    },
+    "encoding": {
+      "x": {
+        "field": "Category Area ( km² )",
+        "type": "quantitative",
+        "title": "Category Area (km²)"
+      },
+      "y": {
+        "field": "Land Area ( km² )",
+        "type": "quantitative",
+        "title": "Land Area (km²)"
+      },
+      "color": {
+        "field": "Category",
+        "type": "nominal",
+        "scale": {"scheme": "category10"},
+        "title": "Category"
+      }
+    },
+    "selection": {
+      "panZoom": {
+        "type": "interval",
+        "bind": "scales"
+      }
+    }
+  }
