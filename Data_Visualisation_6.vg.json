@@ -28,7 +28,13 @@
         "type": "nominal",
         "scale": {"scheme": "category10"},
         "title": "Category"
-      }
+      },
+      "tooltip": [
+        {"field": "Country", "type": "ordinal", "title": "Country"},
+        {"field": "Category Area ( km² )", "type": "quantitative", "title": "Category Area (km²)"},
+        {"field": "Land Area ( km² )", "type": "quantitative", "title": "Land Area (km²)"},
+        {"field": "Category", "type": "nominal", "title": "Category"}
+      ]
     },
     "selection": {
       "panZoom": {

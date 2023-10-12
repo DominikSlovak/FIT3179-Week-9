@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "values": [
+        {"Category": "National Policies Supporting SFM", "Decision": "Yes", "Value": 164},
+        {"Category": "National Policies Supporting SFM", "Decision": "No", "Value": 72},
+        {"Category": "Sub-national Policies Supporting SFM", "Decision": "Yes", "Value": 93},
+        {"Category": "Sub-national Policies Supporting SFM", "Decision": "No", "Value": 143},
+        {"Category": "National Legislations and regulations supporting SFM ( 1000 ha )", "Decision": "Yes", "Value": 171},
+        {"Category": "National Legislations and regulations supporting SFM ( 1000 ha )", "Decision": "No", "Value": 65},
+        {"Category": "Sub-national Legislations and regulations supporting SFM ( 1000 ha )", "Decision": "Yes", "Value": 87},
+        {"Category": "Sub-national Legislations and regulations supporting SFM ( 1000 ha )", "Decision": "No", "Value": 149}
+      ]
+    },
+    "mark": "bar",
+    "encoding": {
+      "y": {"field": "Category", "type": "nominal"},
+      "x": {"field": "Value", "type": "quantitative", "axis": {"title": "Count"}},
+      "color": {"field": "Decision", "type": "nominal", "scale": {"range": ["grey", "lightgreen"]},
+      "legend": {"title": "Decision"}}
+    }
+  }
