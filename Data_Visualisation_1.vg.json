@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "config": {
-    "background": "lightgreen"
+    "background": "#cef7ae"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/forest_disturbances.csv"
