@@ -2,7 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Drivers of Tree Cover Loss",
     "config": {
-      "background": "lightgreen"
+      "background": "#cef7ae",
+      "axisX": {"labelAngle": 45}
     },
     "width": 380,
     "height": 200,

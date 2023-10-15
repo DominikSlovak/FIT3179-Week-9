@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Global Land Use Since 10,000 BC",
   "config": {
-    "background": "lightgreen"
+    "background": "#cef7ae"
   },
   "width": 360,
   "height": 200,

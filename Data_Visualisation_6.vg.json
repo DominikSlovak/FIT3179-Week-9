@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Types of Forests with Country vs Forest Area",
+    "title": "Types of Forests and Area vs Country Area",
     "description": "Scatterplot of Category Area vs. Land Area color-coded by Category",
     "width": 360,
     "height": 300,
@@ -15,7 +15,8 @@
     },
     "config": {
       "range": {"category": {"scheme": "set1"}},
-      "axis": {"labelFontSize": 12, "titleFontSize": 14}
+      "axis": {"labelFontSize": 12, "titleFontSize": 14},
+      "background": "#cef7ae"
     },
     "encoding": {
       "x": {

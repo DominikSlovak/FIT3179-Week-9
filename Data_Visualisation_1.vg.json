@@ -10,14 +10,14 @@
     {
       "width": 380,
       "height": 240,
-      "title": "Natural Disasters Per 1000 Hectares 2000-2017",
+      "title": "Disasters Per 1000 Hectares 2000-2017",
       "layer": [
         {
           "mark": {"type": "area"},
           "encoding": {
             "x": {"field": "Year", "type": "temporal", "scale": {"domain": {"param": "brush"}}, "title": "Year"},
             "y": {"field": "Area", "type": "quantitative", "title": "Forest Area"},
-            "color": {"field": "Event", "type": "nominal", "title": "Event"},
+            "color": {"field": "Event", "type": "nominal", "title": "Event", "scale": {"scheme": "tableau20"}},
             "tooltip": [
               {"field": "Year", "type": "temporal", "title": "Year", "timeUnit": "year"},
               {"field": "Area", "type": "quantitative"},
@@ -45,7 +45,7 @@
       "encoding": {
         "x": {"field": "Year", "type": "temporal", "axis": {"tickCount": 17}, "title": ""},
         "y": {"field": "Area", "type": "quantitative", "title": ""},
-        "color": {"field": "Event", "type": "nominal", "title": "Event"}
+        "color": {"field": "Event", "type": "nominal", "title": "Event", "scale": {"scheme": "category20"}}
       }
     }
   ]

@@ -2,9 +2,9 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "SFM Policies, Legislations and Regulations",
     "config": {
-      "background": "lightgreen"
+      "background": "#cef7ae"
     },
-    "width": 324,
+    "width": 325,
     "height": 100,
     "data": {
       "values": [
@@ -25,7 +25,7 @@
       "color": {
         "field": "Decision",
         "type": "nominal",
-        "scale": {"range": ["grey", "green"]},
+        "scale": {"range": ["grey", "lightgreen"]},
         "legend": {"title": "Decision"}
       },
       "tooltip": [

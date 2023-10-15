@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Greenhouse Gas Emissions by Economic Sectors",
   "config": {
-    "background": "lightgreen"
+    "background": "#cef7ae"
   },
   "width": 400,
   "height": 250,
