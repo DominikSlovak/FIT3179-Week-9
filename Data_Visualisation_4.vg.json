@@ -4,7 +4,7 @@
   "config": {
     "background": "#cef7ae"
   },
-  "width": 360,
+  "width": 410,
   "height": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/global-land-use-since-10000bc.csv"

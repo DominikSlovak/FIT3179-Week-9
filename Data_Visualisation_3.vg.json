@@ -4,7 +4,7 @@
   "config": {
     "background": "#cef7ae"
   },
-  "width": 400,
+  "width": 430,
   "height": 250,
   "data": {
     "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/greenhouse-gas-emissions-by-economic-sectors.csv"

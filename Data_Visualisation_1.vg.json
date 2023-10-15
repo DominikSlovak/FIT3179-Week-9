@@ -8,7 +8,7 @@
   },
   "vconcat": [
     {
-      "width": 380,
+      "width": 430,
       "height": 240,
       "title": "Disasters Per 1000 Hectares 2000-2017",
       "layer": [
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "width": 380,
+      "width": 430,
       "height": 50,
       "mark": {"type": "area", "strokeWidth": 2},
       "params": [

@@ -5,7 +5,7 @@
       "background": "#cef7ae",
       "axisX": {"labelAngle": 45}
     },
-    "width": 380,
+    "width": 390,
     "height": 200,
     "data": {
       "url": "https://raw.githubusercontent.com/DominikSlovak/FIT3179-Week-9/main/data/driver-of-tree-cover-loss.csv"
